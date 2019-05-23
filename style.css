@@ -11,19 +11,16 @@ body {
     flex: 0 0 100%;
     align-items: center;
     justify-content: space-between;
+    padding: 1rem .2rem;
 }
 
-.nav-con {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
 
 .nav-items {
-    list-style: none;
-    display: inherit;
-    padding: .2rem;
-    /* flex: 0 0 10%; */
+    flex-basis: 0;
+    flex-grow: 1;
+    position: relative;
+    width: 100%;
+    margin-right: .5rem;
 }
 
 
@@ -32,6 +29,7 @@ body {
     text-decoration: none;
     color: black;
     border-right: 1px solid black;
+    font-size: .8rem;
 }
 
 .nav-link:last-child {
@@ -40,16 +38,26 @@ body {
 
 .nav-link.login {
     border: none;
-    font-weight: 300;
-    font-size: .9rem;
+}
+
+.bg-green {
+    background-color: green;
+    padding: .7rem;
+    color: white;
+    font-weight: bold;
 }
 
 
 .nav-brand {
     color: red;
     text-decoration: none;
-    font-weight: 600;
-    font-size: 1.4rem;
+    font-weight: 500;
+    font-size: 1.6rem;
+    flex-basis: 0;
+    flex-grow: 1;
+    position: relative;
+    width: 100%;
+    text-align: center;
 }
 
 .nav-button {
@@ -59,4 +67,9 @@ body {
     font-size: .9rem;
     border: 1px solid green;
     margin: 0 .5rem;
+}
+
+.align-end {
+    text-align: end;
+    white-space: nowrap;
 }
