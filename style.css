@@ -60,14 +60,6 @@ body {
     text-align: center;
 }
 
-.nav-button {
-    padding: .5rem 1.5rem;
-    background-color: green;
-    color: white;
-    font-size: .9rem;
-    border: 1px solid green;
-    margin: 0 .5rem;
-}
 
 .align-end {
     text-align: end;
